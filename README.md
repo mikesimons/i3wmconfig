@@ -4,18 +4,20 @@ Here is a screenshot:
 
 If you'd like to try it out, here are the tools directly used:
 
-- rofi - menus
-- i3-gaps - Nicer looking fork of i3
-- compton - Composite effects (mostly fades and inactive opacity)
-- i3lock - Lock screen
-- scrot - Lock screen
-- imagick (for the convert tool) - Lock screen
-- awk - Lock screen
-- nm-applet - (Optional) NetworkManager tray applet 
-- unity-settings-daemon - (Optional) Unity settings for keychains, GTK opts etc
-- variety - Wallpaper downloader
-- pactl - Volume keys binding
-- xbacklight - Backlight control
+| Tool | Purpose | Source | Url |
+|------|---------|--------|-----|
+|rofi|Menus|compiled|https://davedavenport.github.io/rofi/|
+|i3-gaps|WM|compiled|https://github.com/Airblader/i3/tree/gaps|
+|compton|Composite effects|`apt-get install compton`|https://github.com/chjj/compton|
+|i3lock|Lock screen|`apt-get install i3lock`|https://github.com/i3/i3lock|
+|scrot|Screenshots for lock screen|`apt-get install scrot`||
+|imagick|Image manip for lock screen|`apt-get install imagemagick`||
+|awk|Scripting for lock screen|`apt-get install awk`||
+|nm-applet|Network manager in tray|`apt-get install nm-applet`||
+|unity-settings-daemon|Initializes unity settings / keychains / GTK opts etc|Preinstalled||
+|variety|Wallpaper downloader / switcher|`apt-get install variety`|http://peterlevi.com/variety/|
+|pactl|Volume keys binding|`apt-get install pulseaudio-utils`||
+|xbacklight|Backlight keys|`apt-get install xbacklight`||
 
 Keybindings are slightly tweaked from defaults because I'm an ex WMII monkey:
 - $mod - Mod4 (Windows key)
