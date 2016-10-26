@@ -1,6 +1,8 @@
 # i3 dotfiles
 These are my i3 dotfiles.
 Here is a screenshot:
+![screenshot](https://github.com/mikesimons/i3wmconfig/raw/master/screenshot.png "Screenshot")
+
 
 If you'd like to try it out, here are the tools directly used:
 
