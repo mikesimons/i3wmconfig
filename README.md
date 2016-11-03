@@ -30,3 +30,12 @@ Keybindings are slightly tweaked from defaults because I'm an ex WMII monkey:
 - $mod-Pause: Power menu mode (logoff, lock, suspend etc)
 - $mod-shift-bracketleft - (Square bracket) Move workspace to output to left
 - $mod-shift-bracketright - (Square bracket) Move workspace to output to right
+
+## Better font rendering
+I'd also strongly recommend you try out infinality. See http://www.webupd8.org/2013/06/better-font-rendering-in-linux-with.html
+```
+sudo add-apt-repository ppa:no1wantdthisname/ppa
+sudo apt-get update
+sudo apt-get install fontconfig-infinality
+sudo bash /etc/fonts/infinality/infctl.sh setstyle # linux is my preference
+```
